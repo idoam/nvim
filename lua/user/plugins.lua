@@ -88,6 +88,9 @@ return packer.startup(function(use)
   -- Whichkeys
   use "folke/which-key.nvim"
 
+  -- Formater
+  use "mhartington/formatter.nvim"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

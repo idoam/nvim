@@ -6,5 +6,8 @@ if not status_ok then
   return
 end
 
+local lualine = require('lualine')
+
 -- set transparency
 -- vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+-- vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")

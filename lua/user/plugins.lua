@@ -48,6 +48,13 @@ return packer.startup(function(use)
   -- Colorschemes
   use "morhetz/gruvbox"
   use "EdenEast/nightfox.nvim"
+  use "Everblush/everblush.nvim"
+
+  -- LuaLine
+  use "nvim-lualine/lualine.nvim"
+
+  -- Transparent
+  use "xiyaowong/nvim-transparent"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin

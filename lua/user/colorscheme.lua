@@ -1,4 +1,4 @@
-local colorscheme = "nightfox"
+local colorscheme = "neon"
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then
@@ -7,7 +7,3 @@ if not status_ok then
 end
 
 local lualine = require('lualine')
-
--- set transparency
--- vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
--- vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")

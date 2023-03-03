@@ -26,10 +26,6 @@ keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 keymap("n", "<C-Up>", ":tabprevious<CR>", opts)
 keymap("n", "<C-Down>", ":tabnext<CR>", opts)
 
--- Navigate buffers
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
-
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)

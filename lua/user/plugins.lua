@@ -49,6 +49,8 @@ return packer.startup(function(use)
   use "morhetz/gruvbox"
   use "EdenEast/nightfox.nvim"
   use "Everblush/everblush.nvim"
+  use "Shatur/neovim-ayu"
+  use "rafamadriz/neon"
 
   -- LuaLine
   use "nvim-lualine/lualine.nvim"

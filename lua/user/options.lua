@@ -46,9 +46,9 @@ end
 vim.opt.listchars = {trail = '•', tab = '->'}
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
-vim.cmd [[set iskeyword+=-]]
+-- vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set cc=80]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
 
 -- defaults to non-transparent
-vim.cmd [[let g:transparent_enabled = v:false]]
+-- vim.cmd [[let g:transparent_enabled = v:false]]
